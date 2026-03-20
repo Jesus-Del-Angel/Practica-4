@@ -1,0 +1,24 @@
+C:\JESUS 24803\practica.04\practica.04\bin\Debug\practica.04.exe.config
+C:\JESUS 24803\practica.04\practica.04\bin\Debug\practica.04.exe
+C:\JESUS 24803\practica.04\practica.04\bin\Debug\practica.04.pdb
+C:\JESUS 24803\practica.04\practica.04\bin\Debug\practica.04.xml
+C:\JESUS 24803\practica.04\practica.04\obj\Debug\practica.04.vbprojAssemblyReference.cache
+C:\JESUS 24803\practica.04\practica.04\obj\Debug\practica._04.Form1.resources
+C:\JESUS 24803\practica.04\practica.04\obj\Debug\practica._04.Resources.resources
+C:\JESUS 24803\practica.04\practica.04\obj\Debug\practica.04.vbproj.GenerateResource.cache
+C:\JESUS 24803\practica.04\practica.04\obj\Debug\practica.04.vbproj.CoreCompileInputs.cache
+C:\JESUS 24803\practica.04\practica.04\obj\Debug\practica.04.exe
+C:\JESUS 24803\practica.04\practica.04\obj\Debug\practica.04.xml
+C:\JESUS 24803\practica.04\practica.04\obj\Debug\practica.04.pdb
+C:\Users\win512\Downloads\practica4\Practica-4-main\practica.04\practica.04\bin\Debug\practica.04.exe.config
+C:\Users\win512\Downloads\practica4\Practica-4-main\practica.04\practica.04\bin\Debug\practica.04.exe
+C:\Users\win512\Downloads\practica4\Practica-4-main\practica.04\practica.04\bin\Debug\practica.04.pdb
+C:\Users\win512\Downloads\practica4\Practica-4-main\practica.04\practica.04\bin\Debug\practica.04.xml
+C:\Users\win512\Downloads\practica4\Practica-4-main\practica.04\practica.04\obj\Debug\practica.04.vbprojAssemblyReference.cache
+C:\Users\win512\Downloads\practica4\Practica-4-main\practica.04\practica.04\obj\Debug\practica._04.Form1.resources
+C:\Users\win512\Downloads\practica4\Practica-4-main\practica.04\practica.04\obj\Debug\practica._04.Resources.resources
+C:\Users\win512\Downloads\practica4\Practica-4-main\practica.04\practica.04\obj\Debug\practica.04.vbproj.GenerateResource.cache
+C:\Users\win512\Downloads\practica4\Practica-4-main\practica.04\practica.04\obj\Debug\practica.04.vbproj.CoreCompileInputs.cache
+C:\Users\win512\Downloads\practica4\Practica-4-main\practica.04\practica.04\obj\Debug\practica.04.exe
+C:\Users\win512\Downloads\practica4\Practica-4-main\practica.04\practica.04\obj\Debug\practica.04.xml
+C:\Users\win512\Downloads\practica4\Practica-4-main\practica.04\practica.04\obj\Debug\practica.04.pdb
