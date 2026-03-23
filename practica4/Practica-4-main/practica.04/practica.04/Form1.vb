@@ -1,9 +1,14 @@
 ﻿Public Class Form1
     Dim Formato As Boolean = True
+    Dim boton_start As Boolean = False
+    Dim tiempo_crono As Integer = 0
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Timer1.Start()
         Timer2.Start()
+        Timer3.Start()
+        Timer4.Start()
+
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
@@ -60,24 +65,32 @@
             dias.ForeColor = Color.Red
             fecha.ForeColor = Color.Red
             Label2.ForeColor = Color.Red
+            Label4.ForeColor = Color.Red
+            segundos.ForeColor = Color.Red
         ElseIf color_texto = "Azul" Then
             horas.ForeColor = Color.Blue
             minutos.ForeColor = Color.Blue
             dias.ForeColor = Color.Blue
             fecha.ForeColor = Color.Blue
             Label2.ForeColor = Color.Blue
+            Label4.ForeColor = Color.Blue
+            segundos.ForeColor = Color.Blue
         ElseIf color_texto = "Amarillo" Then
             horas.ForeColor = Color.Yellow
             minutos.ForeColor = Color.Yellow
             dias.ForeColor = Color.Yellow
             fecha.ForeColor = Color.Yellow
             Label2.ForeColor = Color.Yellow
+            Label4.ForeColor = Color.Yellow
+            segundos.ForeColor = Color.Yellow
         ElseIf color_texto = "Verde" Then
             horas.ForeColor = Color.Green
             minutos.ForeColor = Color.Green
             dias.ForeColor = Color.Green
             fecha.ForeColor = Color.Green
             Label2.ForeColor = Color.Green
+            Label4.ForeColor = Color.Green
+            segundos.ForeColor = Color.Green
         End If
     End Sub
 
@@ -97,5 +110,28 @@
         ElseIf Label4.Text = "" Then
             Label4.Text = ":"
         End If
+    End Sub
+
+    Private Sub Start_Click(sender As Object, e As EventArgs) Handles Start.Click
+        If boton_start = False Then
+            Timer4.Enabled = True
+            boton_start = True
+            Start.Text = "Stop"
+        ElseIf boton_start = True Then
+            Timer4.Enabled = False
+            boton_start = False
+            Start.Text = "Start"
+        End If
+    End Sub
+
+    Private Sub restart_Click(sender As Object, e As EventArgs) Handles restart.Click
+        tiempo_crono = 0
+        Timer4.Enabled = False
+        tiempo.Text = "0"
+    End Sub
+
+    Private Sub Timer4_Tick(sender As Object, e As EventArgs) Handles Timer4.Tick
+        tiempo_crono = tiempo_crono + 1
+        tiempo.Text = tiempo_crono.ToString()
     End Sub
 End Class
