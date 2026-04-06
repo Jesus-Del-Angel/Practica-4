@@ -134,5 +134,8 @@
   <ItemGroup>
     <None Include="Resources\congif.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
